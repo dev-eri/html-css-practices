@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Patient Records</title>
+</head>
+<body>
+    <table>
+        <caption>PATIENT RECORDS</caption>
+        <button>Add Patient</button>
+        <thead>
+            <tr>
+                <th>Patient ID</th>
+                <th>Full Name</th>
+                <th>Address</th>
+                <th>Email Address</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Status</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>123 Anywhere St.</td>
+                <td>johnDoe25@example.com</td>
+                <td>25</td>
+                <td>Male</td>
+                <td>Admitted</td>
+                <td><i class="fa fa-edit"></i></td>
+                <td><i class="fa fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Doe</td>
+                <td>123 Anywhere St.</td>
+                <td>jane_doe@example.com</td>
+                <td>30</td>
+                <td>Female</td>
+                <td>Discharged</td>
+                <td><i class="fa fa-edit"></i></td>
+                <td><i class="fa fa-trash"></i></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <form action="">
+        <h4>Add Patient</h4>
+        <label for="patientID">Patient ID:<input id="patientID" type="number" placeholder=""></label>
+        <label for="patientID">Full Name:<input id="patientID" type="text" placeholder=""></label>
+        <label for="patientID">Address:<input id="patientID" type="text" placeholder=""></label>
+        <label for="patientID">Email Address:<input id="patientID" type="email" placeholder=""></label>
+        <label for="patientID">Age:<input id="patientID" type="number" placeholder=""></label>
+        <label for="patientID">Gender:<input id="patientID" type="text" placeholder=""></label>
+        <label for="patientID">Status:<input id="patientID" type="text" placeholder=""></label>
+        <input type="button" value="Add">
+    </form>
+</body>
+</html>
