@@ -16,6 +16,7 @@ form {
     width: 45%;
     margin: 5rem auto;
     border: 5px solid orange;
+    border-radius: 1rem;
 }
 
 form::before {
@@ -107,12 +108,4 @@ input[type=button] {
     background-color: rgb(226, 152, 14);
     color: white;
     font-weight: bolder;
-}
-
-div {
-    width: 1rem;
-    height: 1rem;
-    background-color: antiquewhite;
-    margin: auto;
-    padding: 0;
 }
